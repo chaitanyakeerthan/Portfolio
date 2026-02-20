@@ -83,6 +83,7 @@ export default function App(){
               <span className="chip">C</span>
               <span className="chip">Java</span>
               <span className="chip">Python</span>
+               <span className="chip">JavaScript</span>
             </div>
           </div>
 
@@ -92,17 +93,14 @@ export default function App(){
             <div className="chips">
               <span className="chip">HTML</span>
               <span className="chip">CSS</span>
-              <span className="chip">JavaScript</span>
-              <span className="chip">React.js</span>
             </div>
           </div>
 
           <div className="glass stack-card">
-            <h3>Backend</h3>
+            <h3>Frameworks</h3>
             <div className="chips">
-              <span className="chip">Spring Boot</span>
-              
-              <span className="chip">Spring Security</span>
+              <span className="chip">Spring Boot</span>             
+              <span className="chip">React.js</span>
             </div>
           </div>
 
