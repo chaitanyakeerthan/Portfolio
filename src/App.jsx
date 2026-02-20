@@ -1,9 +1,9 @@
-import { motion } from "framer-motion";
+
 import Navbar from "./components/Navbar";
 import ResumeButton from "./components/ResumeButton";
 import ProjectCard from "./components/ProjectCard";
 import ContactForm from "./components/ContactForm";
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaCode } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import myImage from "./assets/chaitu.jpeg"
 import { FaLock, FaDatabase, FaLaptopCode, FaServer, FaLayerGroup, FaGraduationCap } from "react-icons/fa";
 
@@ -13,8 +13,6 @@ import {
  SiCodechef
 } from "react-icons/si";
 
-
-const roles=["React Developer","Spring Boot Developer","Java Programmer","Problem Solver"];
 
 export default function App(){
  return(
